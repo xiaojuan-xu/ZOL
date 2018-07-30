@@ -1,0 +1,72 @@
+.x_success{
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0px;
+	left:0px;
+	z-index:110;
+	display:none;
+}
+.x_success > div{
+	width:400px;
+	height:200px;
+	margin:200px auto;
+	background-color:white;
+	border:5px solid rgba(21,21,21,0.2);
+	/*box-shadow:0px 0px 10px 5px #DBD8D8;*/
+}
+
+.x_goodmain{
+	margin-top:20px;
+	height:100px;
+	/*background-color:pink;*/
+	padding-left:40px;
+}
+.x_chacha > span{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	margin-left:375px;
+	background:url('/public/images/chacha.jpg') no-repeat;
+	margin-top:7px;
+	cursor:pointer;
+}
+.x_suleft > span{
+	display:inline-block;
+	width:50px;
+	height:50px;
+	margin:10px 20px 0px 0px;
+	background:url('/public/images/gougou.jpg') no-repeat;
+	background-size:100% 100%;
+}
+.x_suleft {
+	float:left;
+}
+.x_suright{
+	float:left;
+}
+.x_suright > .x_sutitle{
+	font-size:18px;	
+}
+.x_suright > p:nth-child(2) {
+	margin:10px 0px 20px;
+}
+.x_suright > p:nth-child(3) {
+	width:80px;
+	height:30px;
+	text-align:center;
+	background-color:#CC0000;
+	border-radius:2px;
+	display:inline-block;
+	line-height:30px;
+	margin-right:15px;
+}
+.x_suright > p:nth-child(3) > a{
+	font-size:12px;
+	color:white;
+}
+.x_ongo{
+	color:#2A7DE2;
+	font-size:12px;
+	text-decoration:underline;
+}

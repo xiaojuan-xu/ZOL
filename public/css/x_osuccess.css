@@ -1,0 +1,82 @@
+.x_success{
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0px;
+	left:0px;
+	z-index:110;
+	display:none;
+}
+.x_success > div{
+	width:400px;
+	height:200px;
+	margin:200px auto;
+	background-color:white;
+	border:5px solid rgba(21,21,21,0.2);
+}
+
+.x_goodmain{
+	margin-top:20px;
+	height:100px;
+	padding-left:20px;
+}
+.x_misss{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	background:url('/public/images/chacha.jpg') no-repeat;
+	margin-top:7px;
+	cursor:pointer;
+	float:right;
+}
+.x_titcha{
+	height:30px;
+	background-color:#F3F3F3;
+	line-height:30px;
+	padding:0px 10px;
+}
+.x_titcha > span:nth-child(1) {
+	float:left;
+}
+.x_titcha > span:nth-child(2) {
+	float:right;
+}
+.x_suright > p:nth-child(1) > a{
+	font-size:16px;
+	color:#3E6AD7;
+}
+.x_suright > p:nth-child(2) {
+	margin:10px 0px 5px;
+	font-size:14px;
+	color:#677578;
+}
+.x_sendorder {
+	width:80px;
+	height:30px;
+	text-align:center;
+	background-color:#CC0000;
+	border-radius:2px;
+	display:inline-block;
+	line-height:30px;
+	margin-right:15px;
+}
+.x_sendorder > a{
+	font-size:12px;
+	color:white;
+}
+.x_ongo{
+	width:80px;
+	height:30px;
+	text-align:center;
+	background:linear-gradient(to bottom, #F3F3F3, white, #F3F3F3);
+	border:1px solid #CFCFCF;
+	border-radius:2px;
+	display:inline-block;
+	line-height:30px;
+}
+#x_info{
+	font-size:12px;
+	color:#cc0000;
+	display:none;
+	margin-bottom:5px;
+}

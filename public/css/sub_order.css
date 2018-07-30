@@ -1,0 +1,449 @@
+/*订单收银台*/
+.x_orderhead{
+	width:960px;
+	margin:0 auto;
+	padding:15px 0px;
+}
+.x_orderhead > a{
+	display:block;
+	float:left;
+}
+.x_orderhead > a > img{
+	height:46px;
+}
+.x_orderhead > span{
+	float: left;
+    margin: 0 0 0 12px;
+    padding: 0 0 0 15px;
+    font: 18px/52px "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";
+    color: #999;
+    border-left: 1px solid #ebebeb;
+}
+/*订单*/
+.x_ordermain {
+	border: 1px solid #e3e3e3;
+	padding-top:15px;
+    padding-bottom:20px;
+    margin-bottom:50px;
+}
+/*订单付款*/
+.x_ordercontent{
+	width:960px;
+	margin:0 auto;
+}
+.x_autopay{
+	padding: 5px 40px 5px;
+    border-bottom: 1px solid #e3e3e3;
+    background: #fafafa;
+}
+.x_autopay_left{
+	float:left;
+}
+.x_autopay_left > p:nth-child(1) {
+	font: 18px/26px "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";
+	color: #333;
+}
+.x_autopay_left > p:nth-child(1) > span{
+	color: #f33;
+}
+.x_orderdetail{
+	padding: 10px 0;
+    font: 12px/24px arial;
+    color: #666;
+    width: 600px;
+}
+.x_orderdetail > p > span{
+	margin-right:10px;
+}
+.x_autopay_right{
+	float:right;
+}
+.x_autopay_right > span{
+	padding: 11px 0 10px;
+    font: 12px/26px arial;
+    display:block;
+    float:left;
+    margin-right:15px;   
+}
+.x_autopay_right > span > em{
+	font-style:none;
+	color: #f33;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";
+}
+.x_zfbewm{
+	float:right;
+	width: 75px;
+    height: 94px;
+    padding: 4px;
+    background-color: #fff;
+}
+.x_zfbewm > img{
+	width:100%;
+}
+.x_zhifubao {
+	width:75px;
+	height:11px;
+	margin-top:8px;
+	background:url('/public/images/zfbsaomiao2.png') no-repeat 0 0;
+}
+/*付款方式*/
+.x_payment_way{
+	padding: 0px 20px;
+	color: #333;
+}
+.x_third_pay{
+	z-index: 3;
+    border-color: #ededed;
+    position: relative;
+    padding: 16px 18px 10px 193px;
+    min-height: 43px;
+    zoom: 1;
+    margin-top:20px;
+    
+}
+.x_add_border{
+    border: 2px solid #EDEDED;
+}
+.x_third_pay > dt{
+	position: absolute;
+    top: 15px;
+    left: 18px;
+    padding: 0 0 0 40px;
+    width: 128px;
+    font: 16px/34px "Microsoft YaHei",arial;
+}
+.x_third_span{
+	position: absolute;
+	top: 7px;
+    left: 0;
+    width: 22px;
+    height: 23px;
+    cursor: pointer;
+    background:url('/public/images/zfbsaomiao2.png') no-repeat 0px -49px;
+}
+.x_wb > a{
+    display:inline-block;
+    height:38px;
+    width:138px;
+    border:1px solid white;
+}
+.x_wb > a:nth-child(1) {
+    border:1px solid #FF3333;
+}
+.x_wb > a > img{
+    width:100%;
+}
+.x_wb > a:hover{
+    border:1px solid #FF3333;
+}
+/*银行卡支付*/
+.x_payment_yhk{
+	margin: 0px 20px;
+}
+.x_bank_pay{
+	z-index: 3;
+    position: relative;
+    padding: 16px 18px 10px 193px;
+    min-height: 43px;
+    zoom: 1;
+}
+.x_bank_pay > dt{
+	position: absolute;
+    top: 15px;
+    left: 18px;
+    padding: 0 0 0 40px;
+    width: 128px;
+    font: 16px/34px "Microsoft YaHei",arial;
+}
+.x_bank_span{
+	position: absolute;
+	top: 7px;
+    left: 0;
+    width: 22px;
+    height: 23px;
+    cursor: pointer;
+    background:url('/public/images/zfbsaomiao2.png') no-repeat 0px -79px;
+    border:1px solid #
+}
+.x_sum_pay > span{
+	position: relative;
+    top: -4px;
+    float: right;
+    padding: 0 0 0 20px;
+    height: 43px;
+    font: 12px/43px arial;
+}
+.x_sum_pay > span > em{
+	position: relative;
+    top: 2px;
+    padding: 0 5px;
+    color: #f33;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Verdana,"Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";
+}
+/*卡*/
+.x_bank_den{
+	padding:0px 80px;
+	color:#333;
+	font-size:18px;
+    display:none;
+}
+.x_bank_title > p{
+	float:left;
+	padding:8px 15px;
+	border:1px solid white;
+	cursor:pointer;
+	margin-right:5px;
+    
+    background-color:white;
+}
+.x_bank_title > p:nth-child(1) {
+    border:1px solid #E3E3E3;
+    border-bottom:none;
+    height:25px;
+}
+.x_bank_title > p:nth-child(2) {
+    height:24px;
+}
+.x_bank_title > p:hover{
+    border:1px solid #E3E3E3;
+    border-bottom:none;
+}
+.x_wanyin{
+	width:800px;
+	padding-top:10px;
+}
+.x_credit{
+	width:800px;
+}
+/*网银*/
+.x_wanyin > li{
+	width: 138px;
+    height: 50px;
+    border: 1px solid #fff;
+    position: relative;
+    margin: 3px;
+    margin-right: 10px;
+    margin-left: 10px;
+    float: left;
+    cursor: pointer;
+    overflow:hidden;
+}
+.x_wanyin > li:hover{
+    border:1px solid #E54C4C;
+}
+.x_wanyin > li > a{
+	float: left;
+    display: block;
+    position: relative;
+    width: 136px;
+    height: 38px;
+    border: 1px solid #eee;
+}
+.x_wanyin > li:hover .index-text{
+    display:block;
+}
+
+.x_wanyin > li:nth-child(1) > a {
+	background: url(../images/yinghang.png) no-repeat 0 0;
+}
+.x_wanyin > li:nth-child(2) > a {
+	background: url(../images/yinghang.png) no-repeat 0 -40px;
+}
+.x_wanyin > li:nth-child(3) > a {
+	background: url(../images/yinghang.png) no-repeat 0 -81px;
+}
+.x_wanyin > li:nth-child(4) > a {
+	background: url(../images/yinghang.png) no-repeat 0 -121px;
+}
+.x_wanyin > li:nth-child(5) > a {
+	background: url(../images/yinghang.png) no-repeat 0 -162px;
+}
+.x_wanyin > li:nth-child(6) > a {
+	background: url(../images/yinghang.png) no-repeat 0 -201px;
+}
+.x_wanyin > li:nth-child(7) > a {
+	background: url(../images/yinghang.png) no-repeat 0 -240px;
+}
+.x_wanyin > li:nth-child(8) > a {
+	background: url(../images/yinghang.png) no-repeat 0 -281px;
+}
+.x_wanyin > li:nth-child(9) > a {
+	background: url(../images/yinghang.png) no-repeat 0 -320px;
+}
+.x_wanyin > li:nth-child(10) > a {
+	background: url(../images/yinghang.png) no-repeat 0 -361px;
+}
+.x_wanyin > li:nth-child(11) > a {
+	background: url(../images/yinghang.png) no-repeat 0 -403px;
+}
+.x_wanyin > li:nth-child(12) > a {
+	background: url(../images/yinghang.png) no-repeat 0 -445px;
+}
+.x_wanyin > li:nth-child(13) > a {
+	background: url(../images/yinghang.png) no-repeat 0 -483px;
+}
+.x_wanyin > li:nth-child(14) > a {
+	background: url(../images/yinghang.png) no-repeat 0 -522px;
+}
+.x_wanyin > li:nth-child(15) > a {
+	background: url(../images/yinghang.png) no-repeat 0 -562px;
+}
+.x_wanyin > li:nth-child(16) > a {
+	background: url(../images/yinghang.png) no-repeat 0 -601px;
+}
+
+.index-text{
+	display: none;
+    width: 138px;
+    height: 17px;
+    background: #e54c4c;
+    clear: both;
+    overflow: hidden;
+    text-align: center;
+    line-height: 17px;
+    color: #fff;
+    font-family: 'Microsoft YaHei';
+    position: relative;
+    top: -6px;
+    font-size:14px;
+}
+.x_bank_title{
+    width:800px;
+    height:41px;
+    border-bottom:1px solid #E6E6E6;
+}
+
+/*信用卡*/
+.x_credit > li{
+    width: 138px;
+    height: 50px;
+    border: 1px solid #fff;
+    position: relative;
+    margin: 3px;
+    margin-right: 10px;
+    margin-left: 10px;
+    float: left;
+    cursor: pointer;
+}
+.x_credit > li:hover{
+    border:1px solid #E54C4C;
+}
+.x_credit > li > a{
+    float: left;
+    display: block;
+    position: relative;
+    width: 136px;
+    height: 38px;
+    border: 1px solid #eee;
+}
+.x_credit > li:hover .index-text{
+    display:block;
+}
+.x_credit > li:nth-child(1) > a {
+    background: url(../images/yinghang.png) no-repeat 0 -640px;
+}
+.x_credit > li:nth-child(2) > a {
+    background: url(../images/yinghang.png) no-repeat 0 -680px;
+}
+.x_credit > li:nth-child(3) > a {
+    background: url(../images/yinghang.png) no-repeat 0 -720px;
+}
+.x_credit > li:nth-child(4) > a {
+    background: url(../images/yinghang.png) no-repeat 0 -760px;
+}
+.x_credit > li:nth-child(5) > a {
+    background: url(../images/yinghang.png) no-repeat 0 -800px;
+}
+.x_credit > li:nth-child(6) > a {
+    background: url(../images/yinghang.png) no-repeat 0 -840px;
+}
+.x_credit > li:nth-child(7) > a {
+    background: url(../images/yinghang.png) no-repeat 0 -880px;
+}
+.x_credit > li:nth-child(8) > a {
+    background: url(../images/yinghang.png) no-repeat 0 -920px;
+}
+.x_payment_yhka{
+    border:2px solid #EDEDED;
+}
+
+/*立即支付*/
+.x_quipay{
+    margin: 20px 50px;
+}
+.x_quipay > a:nth-child(1){
+    display:inline-block;
+    width: 162px;
+    height: 44px;
+    background: #c00;
+    font: 20px/44px "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    margin-right:10px;
+}
+.x_quipay > a:nth-child(2) {
+    color:#0070EF;
+}
+/*提示*/
+.x_tip{
+    color: #F60;
+    height: 30px;
+    border: 1px solid #ffcc7d;
+    width: 850px;
+    line-height: 30px;
+    color: #979696;
+    padding-left:10px;
+    margin: 0px 0 24px 50px;
+    background-color:#FFFDEA;
+}
+.x_tip > span:nth-child(1){
+    display:inline-block;
+    width:13px;
+    height:13px;
+    vertical-align:middle;
+    background:url('/public/images/mark.png') no-repeat;
+}
+.x_tip > span:nth-child(2) {
+    font-size:12px;
+    color:#FF6600;
+}
+/*分割线*/
+.x_splitline{
+    width:900px;
+    height:1px;
+    background-color:#E3E3E3;
+    margin:20px auto;
+}
+
+/*常见问题o*/
+.x_usallyquetsion {
+    padding-left: 50px;
+    font-size: 12px;
+    font-family: "microsoft yahei" !important;
+}
+.x_usallyquetsion > h4{
+    font-size: 16px;
+    color: #333;
+    margin: 20px 0 16px 0;
+    font-weight: normal;
+    
+}
+.x_quetsiondetail > li > h5{
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 1px;
+    font-weight: normal;
+}
+.x_quetsiondetail > li > p{
+    color: #999;
+    margin-bottom: 16px;
+}
+.x_payhelp > a{
+    color: #36c;
+    margin-right:5px;
+}
